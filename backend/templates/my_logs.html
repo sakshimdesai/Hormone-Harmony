@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>My Past Symptom Logs 🌸</h2>
+
+{% if logs %}
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Period</th>
+        <th>Mood</th>
+        <th>Energy</th>
+        <th>Cravings</th>
+        <th>Symptoms</th>
+    </tr>
+
+    {% for log in logs %}
+    <tr>
+        <td>{{ log.date }}</td>
+        <td>{{ "Yes" if log.period == 1 else "No" }}</td>
+        <td>{{ log.mood }}</td>
+        <td>{{ log.energy }}</td>
+        <td>{{ "Yes" if log.cravings == 1 else "No" }}</td>
+        <td>{{ log.symptoms }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No logs yet.</p>
+{% endif %}
+
+{% endblock %}

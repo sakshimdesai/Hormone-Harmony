@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Welcome to Hormone Harmony 🌸</h2>
+
+<p class="subtitle">
+A gentle space to understand your body patterns and learn at your own pace.
+</p>
+
+<div class="dashboard-grid">
+
+    <div class="dashboard-card">
+        <h3>📝 Log Today's Symptoms</h3>
+        <p>Record how you're feeling today to spot patterns over time.</p>
+        <a href="/log-symptom" class="card-link">Log Symptoms</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>📊 View My Logs</h3>
+        <p>Look back at your past symptom entries.</p>
+        <a href="/my-logs" class="card-link">View Logs</a>
+    </div>
+
+    <!-- NEW CARD - Add this! -->
+    <div class="dashboard-card">
+        <h3>📈 My Patterns</h3>
+        <p>See your symptom data visualized with interactive charts.</p>
+        <a href="/my-patterns" class="card-link">View Patterns</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>❓ Is This Normal?</h3>
+        <p>Get educational guidance for common cycle-related concerns.</p>
+        <a href="/symptom-checker" class="card-link">Check Symptoms</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>🌸 Cycle Education</h3>
+        <p>Learn about different menstrual cycle phases.</p>
+        <a href="/cycle-wheel" class="card-link">Explore Phases</a>
+    </div>
+
+</div>
+
+<p class="dashboard-note">
+This application provides educational awareness only and does not offer medical advice.
+</p>
+
+{% endblock %}

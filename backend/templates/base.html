@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hormone Harmony</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h1>Hormone Harmony 🌸</h1>
+
+    {% if session.get("user_id") %}
+    <div>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/log-symptom">Log Symptoms</a>
+        <a href="/my-logs">My Logs</a>
+        <a href="/symptom-checker">Is This Normal?</a>
+        <a href="/cycle-wheel">Cycle Guide</a>
+        <a href="/logout">Logout</a>
+    </div>
+    {% else %}
+    <div>
+        <a href="/login">Login</a>
+        <a href="/signup">Sign Up</a>
+    </div>
+    {% endif %}
+</nav>
+
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<footer>
+    <p>This app is for educational awareness only. Not medical advice.</p>
+</footer>
+
+</body>
+</html>

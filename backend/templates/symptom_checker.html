@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Is This Normal? 🌸</h2>
+
+<p class="subtitle">
+Get gentle, educational guidance about cycle variations. Remember: irregular cycles are common, especially with PCOS.
+</p>
+
+<form method="POST" id="symptomForm">
+
+    <!-- Age -->
+    <label>Age</label>
+    <input type="number" name="age" min="10" max="60" placeholder="Your age" required>
+    <p class="helper-text">Helps us provide age-appropriate guidance.</p>
+
+    <!-- Cycle length pattern -->
+    <label>Your usual cycle pattern</label>
+    <select name="cycle_length" required>
+        <option value="">Select one</option>
+        <option value="regular_short">Regular and short (21-24 days)</option>
+        <option value="regular_normal">Regular and normal (25-35 days)</option>
+        <option value="regular_long">Regular but long (36-40 days)</option>
+        <option value="irregular_mild">Somewhat irregular (varies by a few days)</option>
+        <option value="irregular_moderate">Moderately irregular (varies by 1-2 weeks)</option>
+        <option value="irregular_severe">Very irregular (unpredictable, often skips)</option>
+    </select>
+    <p class="helper-text" style="background: #e7f3ff; padding: 10px; border-radius: 8px; border-left: 3px solid #4a90e2;">
+        ℹ️ With PCOS, cycles longer than 35 days or fewer than 9 periods per year are common.
+    </p>
+
+    <!-- Delay -->
+    <label>How many days late is your period this time?</label>
+    <input type="number" name="delay" min="0" max="180" placeholder="Enter 0 if on time" required>
+    <p class="helper-text">If you're not sure, your best estimate is fine. Enter 0 if it came on time.</p>
+
+    <!-- Pain level -->
+    <label>Pain level during your period</label>
+    <input type="range" name="pain" id="painSlider" min="1" max="5" value="3">
+    <div class="scale-hint">
+        <span>1 - Barely noticeable</span>
+        <span>5 - Debilitating</span>
+    </div>
+    <p style="text-align: center; font-weight: 600; color: var(--pink-dark); margin-bottom: 20px;">
+        Current level: <span id="painValue">3</span>
+    </p>
+    <div class="symptom-box">
+        <div style="font-size: 12px; color: #555;">
+            <strong>1</strong> - Barely noticeable<br>
+            <strong>2</strong> - Mild (can manage easily)<br>
+            <strong>3</strong> - Moderate (uncomfortable but manageable)<br>
+            <strong>4</strong> - Severe (affects daily activities)<br>
+            <strong>5</strong> - Debilitating (can't function normally)
+        </div>
+    </div>
+
+    <!-- Flow type -->
+    <label>Flow intensity</label>
+    <select name="flow" required>
+        <option value="">Select one</option>
+        <option value="very_light">Very light (spotting only)</option>
+        <option value="light">Light (change pad/tampon 3-4 times/day)</option>
+        <option value="normal">Normal (change every 4-6 hours)</option>
+        <option value="heavy">Heavy (change every 2-3 hours)</option>
+        <option value="very_heavy">Very heavy (soaking through hourly or large clots)</option>
+    </select>
+
+    <!-- Additional PCOS-related symptoms -->
+    <label>Do you experience any of these? (Check all that apply)</label>
+    <div class="symptom-box">
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="acne" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Persistent acne (especially jawline/chin)</span>
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="hair_growth" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Excessive facial or body hair</span>
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="hair_loss" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Hair thinning on scalp</span>
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="weight" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Difficulty managing weight</span>
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="dark_patches" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Dark patches on skin (neck, armpits, groin)</span>
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="symptoms" value="mood" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">Mood swings, anxiety, or depression</span>
+        </label>
+        <label style="display: flex; align-items: center;">
+            <input type="checkbox" name="symptoms" value="none" id="noneCheckbox" style="width: auto; margin-right: 10px;">
+            <span style="font-weight: normal;">None of these</span>
+        </label>
+    </div>
+    <p class="helper-text" style="background: #e7f3ff; padding: 10px; border-radius: 8px; border-left: 3px solid #4a90e2;">
+        ℹ️ These symptoms can be associated with PCOS, but only a doctor can diagnose it.
+    </p>
+
+    <!-- Emotional reassurance -->
+    <div class="reassurance-box">
+        💗 There are no "wrong" answers here. Your experience is valid, and cycle irregularity is more common than you think.
+    </div>
+
+    <button type="submit">Get Guidance</button>
+</form>
+
+<p class="form-note">
+    ⚠️ This tool provides educational information only. It cannot diagnose PCOS or any medical condition.
+</p>
+
+<script>
+// Update pain slider value display
+const painSlider = document.getElementById('painSlider');
+const painValue = document.getElementById('painValue');
+
+painSlider.addEventListener('input', function() {
+    painValue.textContent = this.value;
+});
+
+// Prevent selecting multiple contradicting options
+const checkboxes = document.querySelectorAll('input[name="symptoms"]');
+const noneCheckbox = document.getElementById('noneCheckbox');
+
+checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        if (this.value === 'none' && this.checked) {
+            checkboxes.forEach(cb => {
+                if (cb.value !== 'none') cb.checked = false;
+            });
+        } else if (this.checked && this.value !== 'none') {
+            noneCheckbox.checked = false;
+        }
+    });
+});
+</script>
+
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="{{ color }}">{{ result }}</h2>
+
+<p class="result-message">
+{{ message }}
+</p>
+
+{% if concerns %}
+<div class="info-card">
+    <h3 style="margin-top: 0;">📋 What we noticed:</h3>
+    <ul style="margin: 10px 0; padding-left: 20px;">
+        {% for concern in concerns %}
+        <li style="margin-bottom: 8px;">{{ concern }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+{% if recommendations %}
+<div class="info-card" style="margin-top: 20px;">
+    <h3 style="margin-top: 0;">💡 What you can do:</h3>
+    <ul style="margin: 10px 0; padding-left: 20px;">
+        {% for rec in recommendations %}
+        <li style="margin-bottom: 8px;">{{ rec }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<div class="reassurance-box">
+    🌸 Every body is different. Trust your instincts - if something feels off to you, it's completely okay to seek support from a healthcare provider.
+</div>
+
+{% if color in ['orange', 'red'] %}
+<div class="info-card" style="background: #fff3cd; border-left: 4px solid #ffc107;">
+    <h3 style="margin-top: 0; color: #856404;">🩺 When to see a doctor:</h3>
+    <ul style="margin: 10px 0; padding-left: 20px; color: #555;">
+        <li style="margin-bottom: 8px;">Pain that interferes with daily activities</li>
+        <li style="margin-bottom: 8px;">Bleeding that soaks through pads/tampons every hour for several hours</li>
+        <li style="margin-bottom: 8px;">Periods that last longer than 7 days</li>
+        <li style="margin-bottom: 8px;">Periods that come more frequently than every 21 days</li>
+        <li style="margin-bottom: 8px;">No period for 3+ months (if not pregnant)</li>
+        <li style="margin-bottom: 8px;">Any symptom that concerns you - your feelings are valid</li>
+    </ul>
+</div>
+{% endif %}
+
+<div style="display: flex; gap: 15px; margin-top: 30px; flex-wrap: wrap;">
+    <a href="/symptom-checker" class="card-link">Check Again</a>
+    <a href="/dashboard" class="card-link">Back to Dashboard</a>
+    <a href="/log-symptoms" class="card-link">Log Today's Symptoms</a>
+</div>
+
+<div class="info-card" style="margin-top: 30px; background: #fff9f0; border-left: 4px solid #ffd699;">
+    <h4 style="margin-top: 0; color: #cc7a00;">📚 Learn more:</h4>
+    <p style="margin-bottom: 0; font-size: 14px; color: #555;">
+        Understanding your cycle helps you advocate for your health. Check out our 
+        <a href="/cycle-wheel" style="color: var(--pink-dark); font-weight: 600;">Cycle Education Guide</a> 
+        to learn more about what's happening in your body.
+    </p>
+</div>
+
+<p class="form-note" style="margin-top: 30px; background: #f8f9fa; padding: 15px; border-radius: 10px; border-left: 4px solid #ffc107;">
+    ⚠️ <strong>Important:</strong> This result is educational guidance only and cannot replace medical advice. Only a qualified healthcare provider can diagnose PCOS or other conditions.
+</p>
+
+{% endblock %}

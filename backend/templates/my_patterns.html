@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Your Pattern Dashboard 📊</h2>
+
+<p class="subtitle">
+    Visualize your symptom patterns over time. The more you log, the clearer your patterns become.
+</p>
+
+<!-- Summary Stats -->
+<div class="dashboard-grid" style="margin-bottom: 30px;">
+    <div class="dashboard-card">
+        <h3>📅 Days Logged</h3>
+        <p class="stat-number">{{ total_logs }}</p>
+        <p class="stat-label">Total entries</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>🩸 Last Period</h3>
+        <p class="stat-date">
+            {% if last_period_date %}
+                {{ last_period_date }}
+            {% else %}
+                Not logged yet
+            {% endif %}
+        </p>
+        {% if days_since_period %}
+            <p class="stat-label">{{ days_since_period }} days ago</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h3>😊 Average Mood</h3>
+        <p class="stat-emoji">{{ avg_mood_emoji }}</p>
+        <p class="stat-label">Based on recent logs</p>
+    </div>
+</div>
+
+<!-- Time Filter -->
+<div class="filter-card">
+    <label for="timeRange">View data for:</label>
+    <select id="timeRange">
+        <option value="7" {% if selected_days == 7 %}selected{% endif %}>Last 7 days</option>
+        <option value="14" {% if selected_days == 14 %}selected{% endif %}>Last 14 days</option>
+        <option value="30" {% if selected_days == 30 %}selected{% endif %}>Last 30 days</option>
+        <option value="60" {% if selected_days == 60 %}selected{% endif %}>Last 60 days</option>
+        <option value="90" {% if selected_days == 90 %}selected{% endif %}>Last 90 days</option>
+        <option value="all" {% if selected_days == "all" %}selected{% endif %}>All time</option>
+    </select>
+</div>
+
+<!-- Charts -->
+<div class="charts-grid">
+    <div class="info-card">
+        <h3>🩸 Period Timeline</h3>
+        <canvas id="periodChart"></canvas>
+    </div>
+
+    <div class="info-card">
+        <h3>😊 Mood Trends</h3>
+        <canvas id="moodChart"></canvas>
+    </div>
+
+    <div class="info-card">
+        <h3>⚡ Energy Levels</h3>
+        <canvas id="energyChart"></canvas>
+    </div>
+
+    <div class="info-card">
+        <h3>📋 Most Common Symptoms</h3>
+        <canvas id="symptomChart"></canvas>
+    </div>
+</div>
+
+{% if insights %}
+<div class="info-card insights-card">
+    <h3>💡 Pattern Insights</h3>
+    <ul>
+        {% for insight in insights %}
+            <li>{{ insight }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+{% if total_logs == 0 %}
+<div class="reassurance-box" style="text-align:center;">
+    <p class="empty-title">📝 You haven't logged any symptoms yet!</p>
+    <p>Start logging daily to see your patterns emerge over time.</p>
+    <a href="/log-symptom" class="card-link">Log Your First Entry</a>
+</div>
+{% endif %}
+
+<p class="form-note">
+    💡 Tip: Log symptoms consistently for at least 2–3 cycles to see meaningful patterns.
+</p>
+
+<!-- ===================== -->
+<!-- Chart.js -->
+<!-- ===================== -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<!-- ===================== -->
+<!-- Backend Data (SAFE) -->
+<!-- ===================== -->
+<script id="chart-data" type="application/json">
+{{ chart_data | tojson | safe }}
+</script>
+
+<script>
+const chartData = JSON.parse(
+    document.getElementById("chart-data").textContent
+);
+
+// Chart defaults
+Chart.defaults.color = "#333";
+Chart.defaults.font.family = "'Segoe UI', sans-serif";
+
+// ---------------- Period Chart ----------------
+if (chartData?.dates?.length) {
+    new Chart(document.getElementById("periodChart"), {
+        type: "bar",
+        data: {
+            labels: chartData.dates,
+            datasets: [{
+                data: chartData.period_status,
+                backgroundColor: "rgba(247,168,199,0.8)"
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 1,
+                    ticks: {
+                        callback: v => v === 1 ? "Yes" : "No"
+                    }
+                }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+// ---------------- Mood Chart ----------------
+if (chartData?.mood?.length) {
+    new Chart(document.getElementById("moodChart"), {
+        type: "line",
+        data: {
+            labels: chartData.dates,
+            datasets: [{
+                data: chartData.mood,
+                borderColor: "rgba(247,168,199,1)",
+                backgroundColor: "rgba(247,168,199,0.2)",
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 5,
+                    ticks: { stepSize: 1 }
+                }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+// ---------------- Energy Chart ----------------
+if (chartData?.energy?.length) {
+    new Chart(document.getElementById("energyChart"), {
+        type: "line",
+        data: {
+            labels: chartData.dates,
+            datasets: [{
+                data: chartData.energy,
+                borderColor: "rgba(255,159,64,1)",
+                backgroundColor: "rgba(255,159,64,0.2)",
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 5,
+                    ticks: { stepSize: 1 }
+                }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+// ---------------- Symptom Chart ----------------
+if (chartData?.symptoms?.labels?.length) {
+    new Chart(document.getElementById("symptomChart"), {
+        type: "bar",
+        data: {
+            labels: chartData.symptoms.labels,
+            datasets: [{
+                data: chartData.symptoms.counts,
+                backgroundColor: "rgba(247,168,199,0.8)"
+            }]
+        },
+        options: {
+            indexAxis: "y",
+            scales: {
+                x: { beginAtZero: true }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+// ---------------- Time Range Filter ----------------
+document.getElementById("timeRange").addEventListener("change", e => {
+    window.location.href = `/my-patterns?days=${e.target.value}`;
+});
+</script>
+
+{% endblock %}

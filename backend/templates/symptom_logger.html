@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Daily Symptom Log 🌸</h2>
+
+<p class="subtitle">
+Take a moment to reflect on today. There are no right or wrong answers.
+</p>
+
+<form method="POST">
+
+    <!-- Date -->
+    <label>Date</label>
+    <input type="date" name="date" required>
+
+    <!-- Period -->
+    <label>On your period?</label>
+    <select name="period">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+
+    <!-- Mood Slider -->
+    <label>Mood (Low → High)</label>
+    <input type="range" name="mood" min="1" max="5" value="3">
+
+    <!-- Energy Slider -->
+    <label>Energy Level (Low → High)</label>
+    <input type="range" name="energy" min="1" max="5" value="3">
+
+    <!-- Symptoms Box -->
+    <label>Symptoms you noticed</label>
+    <div class="symptom-box">
+        <label><input type="checkbox" name="cravings" value="1"> Cravings</label>
+        <label><input type="checkbox" name="symptoms" value="bloating"> Bloating</label>
+        <label><input type="checkbox" name="symptoms" value="fatigue"> Fatigue</label>
+        <label><input type="checkbox" name="symptoms" value="acne"> Acne</label>
+        <label><input type="checkbox" name="symptoms" value="headache"> Headache</label>
+    </div>
+
+    <!-- Optional Notes -->
+    <label>Notes (optional)</label>
+    <textarea name="notes" rows="3"
+        placeholder="Anything else you noticed today? Mood, sleep, stress, etc."></textarea>
+
+    <button type="submit">Save Log</button>
+</form>
+
+<p class="form-note">
+This log is for awareness only and does not provide medical advice.
+</p>
+
+{% endblock %}
