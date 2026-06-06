@@ -1,0 +1,182 @@
+[
+  {
+    "myth": "Girls with PCOS cannot get pregnant.",
+    "fact": "Many people with PCOS conceive naturally or with minimal medical support. PCOS affects fertility but does not make pregnancy impossible. Early management greatly improves chances.",
+    "category": "fertility",
+    "severity": "high"
+  },
+  {
+    "myth": "You should not exercise during your period.",
+    "fact": "Light to moderate exercise like walking or yoga during periods can actually reduce cramps and improve mood. Listen to your body and move at your own comfort level.",
+    "category": "lifestyle",
+    "severity": "medium"
+  },
+  {
+    "myth": "Irregular periods will automatically become regular after marriage.",
+    "fact": "Marriage does not change your hormones. Irregular periods are a medical symptom that needs lifestyle attention or medical care, not a life event to fix them.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "PCOS only affects overweight girls.",
+    "fact": "PCOS affects people of all body types. Lean PCOS is a well-recognised condition. Weight is one possible factor, not a requirement for diagnosis.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "Touching pickles during periods will spoil them.",
+    "fact": "There is no scientific basis for this. Menstruation does not change the chemistry of your hands or affect food preservation in any way.",
+    "category": "cultural",
+    "severity": "low"
+  },
+  {
+    "myth": "Period blood is dirty or impure.",
+    "fact": "Menstrual blood is a natural mix of blood, uterine lining, and mucus. It is a sign of a functioning reproductive system, not impurity of any kind.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "Eating sour foods during periods makes cramps worse.",
+    "fact": "There is no scientific evidence linking sour foods to increased cramping. Anti-inflammatory foods like ginger and turmeric are more likely to help than harm.",
+    "category": "lifestyle",
+    "severity": "low"
+  },
+  {
+    "myth": "Facial hair in girls means they are becoming more masculine.",
+    "fact": "Excess facial hair in people with PCOS is caused by elevated androgens, which are hormones present in all bodies. It has nothing to do with gender identity or masculinity.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "If you have PCOS, you must have cysts on your ovaries.",
+    "fact": "The name is misleading. PCOS is a hormonal condition and not everyone with it has visible cysts. Diagnosis is based on a combination of symptoms, not just an ultrasound.",
+    "category": "medical",
+    "severity": "medium"
+  },
+  {
+    "myth": "Girls should not wash their hair during periods.",
+    "fact": "Washing your hair during periods is completely safe and has no effect on your cycle, flow, or health. Good hygiene during periods is encouraged.",
+    "category": "cultural",
+    "severity": "low"
+  },
+  {
+    "myth": "PCOS goes away on its own with age.",
+    "fact": "PCOS is a long-term hormonal condition that benefits from consistent lifestyle management. While some symptoms may ease after menopause, it does not simply disappear without care.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "Acne is just a teenage problem and not related to hormones.",
+    "fact": "Hormonal acne, especially along the jawline and chin, is very common in PCOS at any age. It is caused by elevated androgens and is a medical symptom, not a hygiene issue.",
+    "category": "medical",
+    "severity": "medium"
+  },
+  {
+    "myth": "You cannot enter the kitchen or cook food during your period.",
+    "fact": "Menstruating people can safely handle food, cook, and be in any part of the home. This restriction has cultural roots but no scientific basis whatsoever.",
+    "category": "cultural",
+    "severity": "medium"
+  },
+  {
+    "myth": "Eating sugar causes PCOS.",
+    "fact": "PCOS is caused by a complex mix of genetic and hormonal factors. Excess sugar can worsen insulin resistance in those who already have PCOS, but it does not cause the condition.",
+    "category": "lifestyle",
+    "severity": "medium"
+  },
+  {
+    "myth": "Heavy periods mean you are healthier or more fertile.",
+    "fact": "Very heavy bleeding can actually be a sign of an underlying issue like fibroids or hormonal imbalance. Heavy flow is not a fertility indicator and should be discussed with a doctor.",
+    "category": "fertility",
+    "severity": "medium"
+  },
+  {
+    "myth": "Girls with PCOS will definitely pass it on to their children.",
+    "fact": "PCOS has a genetic component but it is not a guaranteed inheritance. Lifestyle factors play a significant role and having a parent with PCOS does not confirm a child will develop it.",
+    "category": "fertility",
+    "severity": "medium"
+  },
+  {
+    "myth": "Doing yoga or being stress-free will cure PCOS completely.",
+    "fact": "Yoga and stress management are genuinely helpful for managing PCOS symptoms, but PCOS cannot be cured through lifestyle alone. It is a condition to manage, not eliminate.",
+    "category": "lifestyle",
+    "severity": "medium"
+  },
+  {
+    "myth": "Menstruating women should not enter temples or places of worship.",
+    "fact": "This is a cultural and religious practice in some communities but has no medical basis. Menstruation does not make a person spiritually impure or physically unsafe in any space.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "If your periods are regular, you cannot have PCOS.",
+    "fact": "Some people with PCOS have relatively regular cycles but still experience other symptoms like acne, excess hair growth, or insulin resistance. Regular periods do not rule out PCOS.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "Birth control pills cure PCOS permanently.",
+    "fact": "Hormonal pills can help manage PCOS symptoms while you take them, but they do not treat the underlying condition. Symptoms often return after stopping the medication.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "Women with PCOS should avoid all fats in their diet.",
+    "fact": "Healthy fats found in foods like nuts, seeds, avocado, and ghee actually support hormone health. Eliminating all fat can worsen hormonal imbalance in PCOS.",
+    "category": "lifestyle",
+    "severity": "medium"
+  },
+  {
+    "myth": "Emotional sensitivity during periods means you are mentally weak.",
+    "fact": "Hormonal fluctuations before and during periods genuinely affect mood and emotions. This is a physiological reality, not a character flaw or sign of weakness.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "Thin girls do not need to worry about PCOS or hormonal issues.",
+    "fact": "Hormonal imbalances do not discriminate based on body size. Thin individuals can and do develop PCOS, thyroid issues, and other hormonal conditions.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "Having a baby will cure PCOS.",
+    "fact": "Pregnancy does not cure PCOS. Some symptoms may temporarily change during pregnancy but the underlying hormonal condition remains and requires continued management.",
+    "category": "fertility",
+    "severity": "high"
+  },
+  {
+    "myth": "Girls with facial hair due to PCOS should feel ashamed.",
+    "fact": "Facial hair from PCOS is a medical symptom caused by hormones. It is not a reflection of femininity, attractiveness, or worth. Managing it is a personal choice, not an obligation.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "Skipping meals helps with weight-related PCOS symptoms.",
+    "fact": "Skipping meals spikes cortisol and disrupts insulin levels, which can worsen PCOS symptoms. Regular balanced meals help maintain stable blood sugar and hormone levels.",
+    "category": "lifestyle",
+    "severity": "medium"
+  },
+  {
+    "myth": "Only married women need to see a gynaecologist.",
+    "fact": "A gynaecologist helps people of all ages and marital statuses with hormonal health, period issues, and PCOS management. Marital status has no bearing on healthcare access.",
+    "category": "cultural",
+    "severity": "high"
+  },
+  {
+    "myth": "Period pain is normal and you just have to bear it.",
+    "fact": "Mild discomfort is common but severe pain that disrupts daily life is not something to simply endure. It can indicate conditions like endometriosis and deserves medical attention.",
+    "category": "medical",
+    "severity": "high"
+  },
+  {
+    "myth": "PCOS is a rare condition that very few women have.",
+    "fact": "PCOS is one of the most common hormonal conditions affecting people with ovaries worldwide. In India, studies suggest it affects roughly 1 in 5 women of reproductive age.",
+    "category": "medical",
+    "severity": "medium"
+  },
+  {
+    "myth": "Talking about periods openly is inappropriate or embarrassing.",
+    "fact": "Open conversations about menstrual health reduce stigma, improve access to care, and help people recognise symptoms earlier. Talking about periods is a sign of awareness, not indecency.",
+    "category": "cultural",
+    "severity": "medium"
+  }
+]

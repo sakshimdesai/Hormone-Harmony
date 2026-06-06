@@ -2,31 +2,62 @@
 
 {% block content %}
 
-<h2>Cycle Phase Education 🌸</h2>
+<h2>PCOS-Aware Cycle Education 🌸</h2>
+
+<p class="subtitle">
+Learn how each menstrual cycle phase works and how PCOS/PCOD may affect hormonal balance, ovulation, and cycle regularity.
+</p>
 
 <div class="wheel">
     <button onclick="loadPhase('menstrual')">Menstrual</button>
+
     <button onclick="loadPhase('follicular')">Follicular</button>
+
     <button onclick="loadPhase('ovulation')">Ovulation</button>
+
     <button onclick="loadPhase('luteal')">Luteal</button>
 </div>
 
 <div id="info" class="info-card"></div>
 
 <script>
+
 function loadPhase(phase) {
+
     fetch(`/cycle-info/${phase}`)
+
         .then(res => res.json())
+
         .then(data => {
+
             document.getElementById("info").innerHTML = `
+
                 <h3>${data.title}</h3>
-                <p><strong>Body:</strong> ${data.body}</p>
-                <p><strong>Mood:</strong> ${data.mood}</p>
-                <p><strong>Food:</strong> ${data.food}</p>
-                <p><strong>Exercise:</strong> ${data.exercise}</p>
+
+                <p>
+                    <strong>What Happens:</strong><br>
+                    ${data.what_happens}
+                </p>
+
+                <p>
+                    <strong>How PCOS Affects This Phase:</strong><br>
+                    ${data.how_pcos_affects_this}
+                </p>
+
+                <p>
+                    <strong>Common Experiences:</strong><br>
+                    ${data.common_experiences}
+                </p>
+
+                <p>
+                    <strong>Why It Matters:</strong><br>
+                    ${data.why_it_matters}
+                </p>
+
             `;
         });
 }
+
 </script>
 
 {% endblock %}

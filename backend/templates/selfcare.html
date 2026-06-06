@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>PCOS Lifestyle & Self-Care 🌿</h2>
+
+<p class="subtitle">
+Explore small lifestyle habits that may support emotional wellbeing, stress balance, energy, and healthier PCOS routines.
+</p>
+
+<div class="dashboard-grid">
+
+    {% for item in entries %}
+
+    <div class="dashboard-card">
+
+        <h3>{{ item["title"] }}</h3>
+
+        <p>
+            {{ item["description"] }}
+        </p>
+
+        <p>
+            <strong>Why it helps:</strong>
+            {{ item["why_it_helps"] }}
+        </p>
+
+        <p>
+            <strong>Category:</strong>
+            {{ item["category"] }}
+        </p>
+
+        <p>
+            <strong>Difficulty:</strong>
+            {{ item["difficulty"] }}
+        </p>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

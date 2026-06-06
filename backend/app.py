@@ -3,13 +3,24 @@ from models import create_users_table
 from auth import signup_user, login_user
 from flask import session, redirect
 from utils import login_required
-from models import create_users_table, create_daily_logs_table
+from models import (
+    create_users_table,
+    create_daily_logs_table,
+    create_myths_table,
+    create_awareness_table,
+    create_meals_table,
+    create_selfcare_table
+)
 from routes.symptoms import log_symptom, view_logs
 from routes.checker import symptom_checker
 from routes.education import get_phase_info
 from db import get_db
 from datetime import datetime, timedelta
 from routes.patterns import my_patterns
+from routes.myths import view_myths
+from routes.awareness import view_awareness
+from routes.meals import view_meals
+from routes.selfcare import view_selfcare
 
 
 app = Flask(__name__)
@@ -17,7 +28,10 @@ app.secret_key = "hormone-harmony-secret-key"
 
 create_users_table()
 create_daily_logs_table()
-
+create_myths_table()
+create_awareness_table()
+create_meals_table()
+create_selfcare_table()
 
 @app.route("/")
 def home():
@@ -81,6 +95,25 @@ def cycle_info(phase):
 def patterns_page():
     return my_patterns()
 
+@app.route('/myths')
+@login_required
+def myths_page():
+    return view_myths()
+
+@app.route('/awareness')
+@login_required
+def awareness_page():
+    return view_awareness()
+
+@app.route('/meal-guide')
+@login_required
+def meal_guide():
+    return view_meals()
+
+@app.route('/selfcare')
+@login_required
+def selfcare_page():
+    return view_selfcare()
 
 if __name__ == "__main__":
     app.run(debug=True)

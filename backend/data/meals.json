@@ -1,0 +1,330 @@
+[
+  {
+    "meal_name": "Moong Dal Chilla",
+    "category": "breakfast",
+    "description": "Thin savory pancakes made from soaked and ground green moong dal, cooked on a tawa with minimal oil. Can be stuffed with grated paneer or vegetables.",
+    "benefit": "High in plant-based protein and fiber, moong dal helps stabilize blood sugar levels and keeps you full longer, which is particularly helpful for managing insulin resistance in PCOS.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You have a known legume intolerance or digestive sensitivity to lentils."
+  },
+  {
+    "meal_name": "Ragi Porridge",
+    "category": "breakfast",
+    "description": "A warm porridge made from ragi (finger millet) flour cooked in water or low-fat milk, lightly sweetened with jaggery or dates.",
+    "benefit": "Ragi is rich in calcium, iron, and fiber with a low glycemic index, making it an excellent breakfast grain for women with PCOS who need sustained energy without blood sugar spikes.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You have kidney-related conditions, as ragi is relatively high in oxalates."
+  },
+  {
+    "meal_name": "Vegetable Oats Upma",
+    "category": "breakfast",
+    "description": "Rolled oats cooked with mustard seeds, curry leaves, and finely chopped vegetables like carrots, beans, and peas. A fiber-rich twist on classic upma.",
+    "benefit": "Oats contain beta-glucan, a soluble fiber that slows glucose absorption and supports healthy cholesterol levels, both important areas of concern in PCOS management.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You have a gluten sensitivity, as some oats may be cross-contaminated with gluten."
+  },
+  {
+    "meal_name": "Besan Vegetable Pancakes",
+    "category": "breakfast",
+    "description": "Thick pancakes made from chickpea flour mixed with grated vegetables, green chilli, and cumin, cooked on a non-stick tawa with very little oil.",
+    "benefit": "Chickpea flour is protein-dense and has a lower glycemic index than wheat flour, helping control appetite and reduce insulin spikes after meals.",
+    "best_time": "Morning breakfast or evening snack",
+    "avoid_if": "You experience bloating or gas easily, as chickpea flour can be heavy on digestion for some."
+  },
+  {
+    "meal_name": "Poha with Peanuts and Vegetables",
+    "category": "breakfast",
+    "description": "Flattened rice cooked with mustard seeds, turmeric, onion, peas, and roasted peanuts, finished with lemon juice and coriander.",
+    "benefit": "Adding peanuts significantly increases the protein content of poha, slowing digestion and reducing the glycemic impact of the rice, making it more PCOS-friendly than plain poha.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You have a peanut allergy."
+  },
+  {
+    "meal_name": "Sprouts Salad with Lemon and Chaat Masala",
+    "category": "snack",
+    "description": "Mixed sprouted legumes such as moong and chana tossed with chopped tomatoes, cucumber, onion, lemon juice, and a pinch of chaat masala.",
+    "benefit": "Sprouts are rich in enzymes, protein, and fiber while being low in calories. They support gut health and provide sustained energy, both important for hormonal balance in PCOS.",
+    "best_time": "Mid-morning or evening snack",
+    "avoid_if": "You have digestive conditions where raw sprouts cause discomfort. Lightly steaming them is an alternative."
+  },
+  {
+    "meal_name": "Palak Dal",
+    "category": "lunch",
+    "description": "Yellow toor dal cooked with fresh spinach, tempered with cumin, garlic, and a pinch of asafoetida. A simple, nourishing everyday dal.",
+    "benefit": "Combining lentils with spinach creates a meal rich in iron, folate, protein, and fiber. Women with PCOS are often prone to iron deficiency, making this combination especially supportive.",
+    "best_time": "Lunch",
+    "avoid_if": "You are managing kidney disease, as both spinach and dal are moderately high in potassium and phosphorus."
+  },
+  {
+    "meal_name": "Bajra Roti with Methi Sabzi",
+    "category": "lunch",
+    "description": "Pearl millet flatbread served with a dry fenugreek leaf vegetable preparation cooked with minimal oil and simple spices.",
+    "benefit": "Bajra is a low glycemic grain rich in magnesium, which supports insulin function. Methi contains compounds that naturally help regulate blood sugar, making this combination highly suitable for PCOS.",
+    "best_time": "Lunch or dinner",
+    "avoid_if": "You are pregnant, as large amounts of fenugreek are not recommended during pregnancy."
+  },
+  {
+    "meal_name": "Brown Rice Khichdi",
+    "category": "lunch",
+    "description": "A one-pot comfort meal made with brown rice and yellow moong dal, cooked soft with turmeric, ghee, and cumin. Easy on digestion and deeply nourishing.",
+    "benefit": "Brown rice has more fiber and nutrients than white rice, resulting in a slower rise in blood sugar. Combined with protein-rich moong dal, this meal supports stable energy throughout the afternoon.",
+    "best_time": "Lunch",
+    "avoid_if": "You prefer a firmer texture, as brown rice khichdi tends to be softer and more porridge-like."
+  },
+  {
+    "meal_name": "Chana Masala with Jowar Roti",
+    "category": "lunch",
+    "description": "Chickpeas cooked in a tangy tomato and onion-based masala, served with sorghum flatbread instead of wheat roti.",
+    "benefit": "Chickpeas are one of the best plant-based protein sources with a very low glycemic index. Jowar is a gluten-free grain rich in fiber that supports blood sugar control, ideal for PCOS management.",
+    "best_time": "Lunch",
+    "avoid_if": "You have irritable bowel syndrome, as chickpeas can trigger bloating in some individuals."
+  },
+  {
+    "meal_name": "Egg White Bhurji",
+    "category": "breakfast",
+    "description": "Scrambled egg whites cooked with onion, tomato, green chilli, and coriander in a small amount of ghee or cold-pressed oil.",
+    "benefit": "Egg whites are a lean, high-quality protein source that supports muscle maintenance and keeps blood sugar stable. Women with PCOS benefit from higher protein breakfasts to reduce mid-morning cravings.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You are vegetarian or have an egg allergy."
+  },
+  {
+    "meal_name": "Lauki (Bottle Gourd) Dal",
+    "category": "lunch",
+    "description": "Moong dal cooked with soft pieces of bottle gourd, tempered with cumin, garlic, and turmeric. Light, easy to digest, and filling.",
+    "benefit": "Bottle gourd is very high in water content and low in sugars, making it an excellent vegetable for managing weight and bloating. Combined with dal, it provides protein without heaviness.",
+    "best_time": "Lunch or dinner",
+    "avoid_if": "You dislike mildly bland flavors, though spices can easily enhance the taste."
+  },
+  {
+    "meal_name": "Cucumber Raita",
+    "category": "snack",
+    "description": "Grated cucumber mixed into whisked low-fat curd with roasted cumin powder, black salt, and chopped mint.",
+    "benefit": "Curd provides probiotics that support gut health and may help reduce inflammation. Cucumbers are hydrating and cooling. This combination is a simple way to add protein and probiotics to any meal.",
+    "best_time": "With lunch or as an afternoon snack",
+    "avoid_if": "You are lactose intolerant, though many people with lactose intolerance tolerate curd better than milk."
+  },
+  {
+    "meal_name": "Methi Thepla",
+    "category": "breakfast",
+    "description": "Thin whole wheat flatbreads made with fresh fenugreek leaves, yogurt, turmeric, and mild spices, cooked with minimal oil.",
+    "benefit": "Fenugreek is known to contain compounds that help improve insulin sensitivity. These flatbreads are a portable, fiber-rich breakfast option well-suited for managing blood sugar throughout the morning.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You are pregnant, as high fenugreek intake is not advised during pregnancy."
+  },
+  {
+    "meal_name": "Masoor Dal Soup",
+    "category": "dinner",
+    "description": "Red lentils cooked until smooth and soupy with tomatoes, garlic, cumin, and a squeeze of lemon. Simple and warming.",
+    "benefit": "Masoor dal is rich in iron, folate, and plant-based protein. It cooks quickly, is easy to digest, and makes a light but nourishing dinner that does not overload blood sugar before sleep.",
+    "best_time": "Dinner",
+    "avoid_if": "You have a uric acid condition, as lentils contain purines that may be a concern for gout."
+  },
+  {
+    "meal_name": "Grilled Paneer Tikka",
+    "category": "snack",
+    "description": "Cubes of paneer marinated in hung curd, turmeric, cumin, and chilli powder, grilled or cooked on a tawa until lightly charred.",
+    "benefit": "Paneer is an excellent source of protein and healthy fats that keep you full and help prevent blood sugar crashes. It is one of the best high-protein snack options available for vegetarians with PCOS.",
+    "best_time": "Evening snack or as a side with dinner",
+    "avoid_if": "You are lactose intolerant or following a dairy-free diet."
+  },
+  {
+    "meal_name": "Turmeric Milk (Haldi Doodh)",
+    "category": "drink",
+    "description": "Warm low-fat milk or plant-based milk blended with turmeric, a pinch of black pepper, and a small amount of honey or jaggery.",
+    "benefit": "Curcumin in turmeric has well-documented anti-inflammatory properties that may help reduce the chronic low-grade inflammation associated with PCOS. Black pepper enhances curcumin absorption significantly.",
+    "best_time": "Evening or before bed",
+    "avoid_if": "You are lactose intolerant. Use oat milk or almond milk as an alternative."
+  },
+  {
+    "meal_name": "Jeera Water",
+    "category": "drink",
+    "description": "Water boiled with cumin seeds and sipped warm, ideally in the morning on an empty stomach.",
+    "benefit": "Cumin may support digestion, reduce bloating, and help with insulin sensitivity. It is a gentle, traditional remedy that works well as a morning digestive support drink for women with PCOS.",
+    "best_time": "First thing in the morning",
+    "avoid_if": "You are on blood-thinning medications, as cumin in large quantities may have mild anticoagulant effects."
+  },
+  {
+    "meal_name": "Amla Juice",
+    "category": "drink",
+    "description": "Fresh or bottled Indian gooseberry juice diluted with water, taken plain or with a small amount of honey.",
+    "benefit": "Amla is one of the richest natural sources of Vitamin C and antioxidants. It supports hormonal balance, boosts immunity, improves skin health, and may help regulate blood sugar levels in PCOS.",
+    "best_time": "Morning on an empty stomach",
+    "avoid_if": "You have acidity issues, as amla is naturally sour and may aggravate acid reflux in some people."
+  },
+  {
+    "meal_name": "Cinnamon Infused Green Tea",
+    "category": "drink",
+    "description": "Green tea brewed with a small cinnamon stick, sipped warm without sugar.",
+    "benefit": "Both green tea and cinnamon are associated with improved insulin sensitivity and reduced androgen levels. This combination makes for a gentle, supportive daily drink for women managing PCOS.",
+    "best_time": "Mid-morning or after meals",
+    "avoid_if": "You are sensitive to caffeine or have a thyroid condition requiring specific dietary guidance."
+  },
+  {
+    "meal_name": "Sattu Sharbat",
+    "category": "drink",
+    "description": "Roasted chana flour stirred into cold water with lemon juice, roasted cumin powder, black salt, and a small amount of jaggery.",
+    "benefit": "Sattu is a powerhouse of plant-based protein and fiber. It keeps energy stable, reduces cravings, and is particularly effective as a filling midday drink during warm weather, without spiking blood sugar.",
+    "best_time": "Mid-morning or early afternoon",
+    "avoid_if": "You have digestive conditions where chickpea-based foods cause gas or bloating."
+  },
+  {
+    "meal_name": "Mixed Vegetable Daliya",
+    "category": "breakfast",
+    "description": "Broken wheat cooked with diced carrots, peas, beans, and mild spices in a pressure cooker. A wholesome savory porridge.",
+    "benefit": "Daliya is a whole grain with high fiber content that digests slowly, preventing rapid blood sugar rises. Its combination with vegetables increases micronutrient density and helps keep the gut healthy.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You have a wheat or gluten sensitivity."
+  },
+  {
+    "meal_name": "Rajma with Brown Rice",
+    "category": "lunch",
+    "description": "Kidney beans in a thick tomato and onion based gravy, served with a small portion of brown rice.",
+    "benefit": "Rajma is one of the highest fiber legumes available and has a naturally low glycemic index. Paired with brown rice, this classic North Indian combination becomes a complete, blood-sugar-friendly meal.",
+    "best_time": "Lunch",
+    "avoid_if": "You experience significant bloating from beans. Soaking rajma overnight and discarding the water before cooking can reduce this effect."
+  },
+  {
+    "meal_name": "Stir-Fried Broccoli and Paneer",
+    "category": "dinner",
+    "description": "Broccoli florets and paneer cubes stir-fried with garlic, pepper, and a splash of soy sauce or simple Indian spices.",
+    "benefit": "Broccoli contains compounds that support liver function and estrogen metabolism, both important for hormonal health in PCOS. Combined with protein-rich paneer, this makes a light but satisfying dinner.",
+    "best_time": "Dinner",
+    "avoid_if": "You have thyroid conditions, as broccoli is a cruciferous vegetable that is ideally eaten cooked rather than raw in such cases."
+  },
+  {
+    "meal_name": "Kadala Curry with Appam",
+    "category": "lunch",
+    "description": "Black chickpeas cooked in a coconut-based Kerala curry, served with soft rice hoppers.",
+    "benefit": "Black chickpeas are particularly rich in iron and plant-based protein. This South Indian combination provides slow-release energy and supports iron levels, which are often depleted in women with heavy periods related to PCOS.",
+    "best_time": "Lunch",
+    "avoid_if": "You are managing coconut fat intake under medical guidance."
+  },
+  {
+    "meal_name": "Roasted Makhana (Fox Nuts)",
+    "category": "snack",
+    "description": "Lotus seeds dry roasted in a pan with a small amount of ghee and rock salt, or with turmeric and pepper for a savory version.",
+    "benefit": "Makhana is low in fat, rich in protein and magnesium, and has a low glycemic index. It is an excellent snack that satisfies hunger without causing blood sugar spikes, making it ideal for PCOS snacking.",
+    "best_time": "Evening snack",
+    "avoid_if": "You have specific nut or seed allergies, though makhana is generally very well tolerated."
+  },
+  {
+    "meal_name": "Thandai with Reduced Sugar",
+    "category": "drink",
+    "description": "A traditional Indian milk drink made with soaked almonds, melon seeds, fennel, cardamom, and rose petals, blended and strained with minimal sweetener.",
+    "benefit": "Almonds and melon seeds provide healthy fats and magnesium. When prepared without excessive sugar, thandai is a nutritious, cooling drink that supports hormonal health and provides sustained energy.",
+    "best_time": "Morning or afternoon",
+    "avoid_if": "You are lactose intolerant or have nut allergies."
+  },
+  {
+    "meal_name": "Til Chikki (Sesame Seed Bar)",
+    "category": "snack",
+    "description": "Small pieces of sesame seeds set with jaggery, cut into bite-sized portions.",
+    "benefit": "Sesame seeds are rich in zinc and calcium, both of which support hormonal health. Jaggery provides iron and is a lower glycemic alternative to refined sugar, making this a smarter sweet snack choice.",
+    "best_time": "Evening snack or after meals as a small sweet",
+    "avoid_if": "You need to limit jaggery intake due to blood sugar concerns. Portion size matters here."
+  },
+  {
+    "meal_name": "Baingan Bharta with Jowar Roti",
+    "category": "dinner",
+    "description": "Flame-roasted and mashed brinjal cooked with onion, tomato, garlic, and cumin, served with sorghum flatbread.",
+    "benefit": "Brinjal is very low in carbohydrates and high in antioxidants. Paired with jowar, a gluten-free low glycemic grain, this makes a light dinner that does not burden blood sugar or digestion before sleep.",
+    "best_time": "Dinner",
+    "avoid_if": "You have nightshade sensitivity, as brinjal belongs to the nightshade family."
+  },
+  {
+    "meal_name": "Curd Rice with Pomegranate",
+    "category": "lunch",
+    "description": "Cooked rice mixed with curd and tempered with mustard seeds and curry leaves, topped with fresh pomegranate arils.",
+    "benefit": "Curd provides beneficial probiotics that support gut health and reduce inflammation. Pomegranate is rich in antioxidants that may support hormonal balance. This is a gentle, cooling combination ideal for digestion.",
+    "best_time": "Lunch",
+    "avoid_if": "You are managing blood sugar closely, as white rice has a higher glycemic index. Using brown rice is a good alternative."
+  },
+  {
+    "meal_name": "Dhokla",
+    "category": "snack",
+    "description": "Steamed fermented chickpea and semolina cakes, light and spongy, served with green chutney.",
+    "benefit": "Fermentation increases the bioavailability of nutrients in dhokla and introduces beneficial bacteria that support gut health. It is a protein-rich, low-fat snack that digests well and keeps energy stable.",
+    "best_time": "Morning snack or evening snack",
+    "avoid_if": "You have gluten sensitivity, as traditional dhokla contains semolina. Besan-only versions are available as an alternative."
+  },
+  {
+    "meal_name": "Gajar Mooli Salad",
+    "category": "snack",
+    "description": "Grated carrot and radish tossed with lemon juice, rock salt, and fresh coriander. Simple, raw, and refreshing.",
+    "benefit": "Carrots and radishes are non-starchy vegetables high in fiber and antioxidants. Radish in particular supports liver detoxification, which plays a role in estrogen processing, an important factor in PCOS.",
+    "best_time": "With lunch or as a mid-meal snack",
+    "avoid_if": "You have thyroid conditions, as radish is a cruciferous vegetable best eaten in moderation in such cases."
+  },
+  {
+    "meal_name": "Paneer and Spinach Paratha",
+    "category": "breakfast",
+    "description": "Whole wheat flatbread stuffed with a mixture of crumbled paneer and blanched spinach, cooked with a small amount of ghee.",
+    "benefit": "This combination delivers protein from paneer, iron and folate from spinach, and complex carbohydrates from whole wheat, making it a well-rounded breakfast that supports energy, satiety, and hormonal health.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You are lactose intolerant or avoiding dairy."
+  },
+  {
+    "meal_name": "Tomato Rasam",
+    "category": "dinner",
+    "description": "A light, tangy South Indian broth made with tomatoes, tamarind, pepper, cumin, garlic, and curry leaves.",
+    "benefit": "Rasam is deeply warming, easy to digest, and rich in antioxidants from tomatoes and anti-inflammatory compounds from pepper. It is an excellent light dinner option that does not spike blood sugar.",
+    "best_time": "Dinner or as a warm drink when unwell",
+    "avoid_if": "You have acid reflux or are sensitive to tamarind and tomato acidity."
+  },
+  {
+    "meal_name": "Almond and Date Ladoo",
+    "category": "snack",
+    "description": "Small energy balls made from ground almonds, Medjool dates, cardamom, and a pinch of saffron. No sugar added, no baking required.",
+    "benefit": "Almonds provide healthy monounsaturated fats and magnesium that support insulin function. Dates offer natural sweetness along with iron and fiber. This makes for a balanced sweet treat that does not cause a sugar crash.",
+    "best_time": "Morning snack or pre-workout",
+    "avoid_if": "You have nut allergies or need to limit natural sugar intake due to specific medical guidance."
+  },
+  {
+    "meal_name": "Sambhar with Mixed Vegetables",
+    "category": "lunch",
+    "description": "Toor dal cooked with drumstick, pumpkin, carrots, and tomatoes in a tamarind-based South Indian broth with fresh sambhar powder.",
+    "benefit": "Drumstick is particularly beneficial for PCOS as it is rich in iron and calcium. Combined with lentils and a variety of vegetables, sambhar becomes a micronutrient-rich, high-fiber dish that supports overall hormonal health.",
+    "best_time": "Lunch",
+    "avoid_if": "You have tamarind sensitivity or acid reflux."
+  },
+  {
+    "meal_name": "Coconut Chutney with Idli",
+    "category": "breakfast",
+    "description": "Steamed fermented rice and lentil cakes served with freshly ground coconut chutney and a small bowl of sambhar.",
+    "benefit": "Idli is naturally fermented, supporting gut health through beneficial bacteria. The fermentation process also makes the nutrients more bioavailable. It is one of the most easily digestible South Indian breakfasts available.",
+    "best_time": "Morning breakfast",
+    "avoid_if": "You need to limit white rice intake strictly due to blood sugar concerns. Ragi idli is an excellent lower glycemic substitute."
+  },
+  {
+    "meal_name": "Kadhi with Jowar Roti",
+    "category": "dinner",
+    "description": "A thin yogurt and chickpea flour based gravy tempered with mustard seeds, dried red chilli, and curry leaves, served with jowar flatbread.",
+    "benefit": "Curd in kadhi provides probiotics while the chickpea flour adds protein. Jowar keeps the glycemic load lower than wheat roti, making this a gentle and satisfying dinner for women with PCOS.",
+    "best_time": "Dinner",
+    "avoid_if": "You are lactose intolerant or sensitive to chickpea flour."
+  },
+  {
+    "meal_name": "Banana Stem Stir Fry",
+    "category": "lunch",
+    "description": "Thinly sliced banana stem cooked with mustard seeds, coconut, green chilli, and turmeric. A traditional South Indian preparation.",
+    "benefit": "Banana stem is exceptionally high in fiber and acts as a natural diuretic, helping reduce bloating and water retention commonly associated with PCOS. It also supports kidney health and insulin regulation.",
+    "best_time": "Lunch",
+    "avoid_if": "You have difficulty sourcing fresh banana stem. Canned versions are widely available in South Indian grocery stores."
+  },
+  {
+    "meal_name": "Soaked Almonds and Walnuts",
+    "category": "snack",
+    "description": "A small handful of almonds and walnuts soaked overnight in water and eaten with the skin removed in the morning.",
+    "benefit": "Walnuts are one of the best plant sources of omega-3 fatty acids, which help reduce inflammation linked to PCOS. Almonds support magnesium intake and insulin sensitivity. Soaking improves digestion and nutrient absorption.",
+    "best_time": "First thing in the morning or as a mid-morning snack",
+    "avoid_if": "You have tree nut allergies."
+  },
+  {
+    "meal_name": "Horsegram Rasam",
+    "category": "dinner",
+    "description": "A thin, warming South Indian broth made from boiled horsegram water, tempered with garlic, pepper, cumin, and curry leaves.",
+    "benefit": "Horsegram is one of the most protein-dense legumes and has traditionally been used to support weight management and hormonal health. Its naturally occurring compounds may assist in improving insulin sensitivity.",
+    "best_time": "Dinner or as a warm therapeutic drink",
+    "avoid_if": "You have gout or uric acid conditions, as horsegram is high in purines."
+  }
+]

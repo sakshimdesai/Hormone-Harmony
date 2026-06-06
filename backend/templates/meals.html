@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>PCOS-Friendly Meal Guide 🍱</h2>
+
+<p class="subtitle">
+Explore simple Indian meals that may support energy, hormone balance, and healthier PCOS lifestyle habits.
+</p>
+
+<div class="dashboard-grid">
+
+    {% for meal in meals %}
+
+    <div class="dashboard-card">
+
+        <h3>{{ meal["meal_name"] }}</h3>
+
+        <p>
+            <strong>Category:</strong>
+            {{ meal["category"] }}
+        </p>
+
+        <p>
+            {{ meal["description"] }}
+        </p>
+
+        <p>
+            <strong>Benefit:</strong>
+            {{ meal["benefit"] }}
+        </p>
+
+        <p>
+            <strong>Best Time:</strong>
+            {{ meal["best_time"] }}
+        </p>
+
+        <p>
+            <strong>Avoid If:</strong>
+            {{ meal["avoid_if"] }}
+        </p>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

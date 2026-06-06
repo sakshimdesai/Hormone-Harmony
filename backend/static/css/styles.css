@@ -140,9 +140,23 @@ footer {
 
 .info-card {
     background: var(--pink-light);
-    padding: 20px;
-    border-radius: 16px;
-    margin-top: 20px;
+    padding: 24px;
+    border-radius: 18px;
+    margin-top: 25px;
+    line-height: 1.8;
+    color: #444;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.info-card h3 {
+    color: var(--pink-dark);
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.info-card p {
+    margin-bottom: 18px;
+    font-size: 15px;
 }
 /* Flash messages */
 .flash {
@@ -360,4 +374,58 @@ form button {
     color: #777;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+/* DROPDOWN NAVBAR */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: #222;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.dropbtn:hover {
+    color: #d87093;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background-color: white;
+    min-width: 220px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 14px 18px;
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffe4ef;
+    color: #d87093;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

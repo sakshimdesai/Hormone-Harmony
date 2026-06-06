@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Period Myths & Facts 🌸</h2>
+
+<div class="myths-grid">
+
+    {% for myth in myths %}
+
+    <div class="info-card">
+
+        <h3 class="myth-title">
+            {{ myth.myth }}
+        </h3>
+
+        <p class="fact-text">
+            <strong> Fact:</strong>
+            {{ myth.fact }}
+        </p>
+
+        <div class="tags">
+            <span class="tag">{{ myth.category }}</span>
+            <span class="tag">Severity: {{ myth.severity }}</span>
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<style>
+
+.myths-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.info-card {
+    background: #ffe4ec;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.myth-title {
+    color: #c2185b;
+    margin-bottom: 15px;
+}
+
+.fact-text {
+    line-height: 1.7;
+    color: #333;
+}
+
+.tags {
+    margin-top: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background: #f8bbd0;
+    color: #880e4f;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+</style>
+
+{% endblock %}

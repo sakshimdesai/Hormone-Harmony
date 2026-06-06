@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Start Your Morning with Warm Water",
+    "description": "Begin each day by drinking one or two glasses of warm water before tea, coffee, or breakfast. You can add a slice of lemon or a few drops of amla juice if you enjoy it.",
+    "why_it_helps": "Warm water first thing in the morning gently activates digestion, reduces bloating, and helps flush out overnight metabolic waste. Good hydration from the start of the day supports hormone transport and cellular function.",
+    "category": "hydration",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Eat Within an Hour of Waking Up",
+    "description": "Try not to skip breakfast or delay it significantly. Even a small protein-rich option like a handful of soaked nuts, a boiled egg, or a glass of sattu water counts.",
+    "why_it_helps": "Eating shortly after waking stabilizes cortisol and blood sugar levels early in the day. Skipping breakfast can cause cortisol spikes that worsen insulin resistance, a core challenge in PCOS management.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Practice 10 Minutes of Morning Sunlight Exposure",
+    "description": "Step outside or sit near a bright window within the first hour of waking. You do not need to exercise or do anything specific. Simply being in natural light is enough.",
+    "why_it_helps": "Morning sunlight helps regulate your circadian rhythm, which directly influences cortisol, melatonin, and reproductive hormone cycles. Women with PCOS often have disrupted circadian patterns that worsen symptoms.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Walk for 20 to 30 Minutes Daily",
+    "description": "A simple daily walk at a comfortable pace is one of the most consistently beneficial habits for PCOS. It does not need to be fast or intense. Consistency matters more than speed.",
+    "why_it_helps": "Regular walking improves insulin sensitivity, reduces cortisol, supports cardiovascular health, and aids in weight regulation without placing excessive stress on the body, which can worsen hormonal imbalance.",
+    "category": "exercise",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Try Resistance Training Twice a Week",
+    "description": "Simple bodyweight exercises like squats, lunges, push-ups, or light dumbbell workouts done twice a week are a great starting point. No gym membership is required.",
+    "why_it_helps": "Muscle tissue uses glucose more efficiently than fat tissue. Building lean muscle through resistance training directly improves insulin sensitivity, which is one of the most important lifestyle interventions for PCOS.",
+    "category": "exercise",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Avoid Intense Overexercise",
+    "description": "More exercise is not always better with PCOS. Avoid pushing through exhaustion with very intense daily workouts. Rest days are a legitimate and necessary part of any routine.",
+    "why_it_helps": "Excessive high-intensity exercise raises cortisol significantly, which can worsen hormonal imbalance and disrupt menstrual cycles further. A balanced approach combining gentle movement with adequate rest is more effective for PCOS.",
+    "category": "exercise",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Practice Yoga for Hormonal Support",
+    "description": "Dedicate 20 to 30 minutes a few times a week to yoga poses that support the endocrine system. Poses like Supta Baddha Konasana, Viparita Karani, Balasana, and Setu Bandhasana are gentle starting points.",
+    "why_it_helps": "Yoga reduces cortisol, improves blood flow to the pelvic region, supports the nervous system, and has been shown in several studies to improve hormonal markers and menstrual regularity in women with PCOS.",
+    "category": "exercise",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Prioritize 7 to 9 Hours of Sleep",
+    "description": "Aim to be in bed by a consistent time each night and allow yourself 7 to 9 hours of sleep. This includes weekends and even when life feels busy.",
+    "why_it_helps": "Sleep is when the body repairs, regulates hormones, and processes stress. Poor or insufficient sleep raises cortisol and insulin resistance the following day, directly worsening PCOS symptoms over time.",
+    "category": "sleep",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Create a Wind-Down Routine Before Bed",
+    "description": "Choose two or three calming activities to do in the 30 to 60 minutes before sleep. This could be reading, light stretching, journaling, or listening to soft music. Avoid screens if possible.",
+    "why_it_helps": "A consistent wind-down routine signals the nervous system to shift from alert mode to rest mode. This supports melatonin production, which is often disrupted in PCOS and affects both sleep quality and hormonal regulation.",
+    "category": "sleep",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Keep Your Sleep and Wake Time Consistent",
+    "description": "Try to wake up and go to bed at roughly the same time each day, even on weekends. Your body thrives on a predictable schedule.",
+    "why_it_helps": "Consistent sleep timing strengthens your circadian rhythm, which governs cortisol, insulin, reproductive hormones, and appetite. Irregular sleep patterns are associated with worsened PCOS symptoms and mood instability.",
+    "category": "sleep",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Limit Screen Time After 9 PM",
+    "description": "Try to reduce phone, laptop, and television use after 9 PM. If you must use screens, consider using night mode or blue light filter settings.",
+    "why_it_helps": "Blue light from screens suppresses melatonin production and keeps the brain in an alert state. Poor melatonin signalling affects the hormonal cascade that governs your menstrual cycle and stress response.",
+    "category": "sleep",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Practice Diaphragmatic Breathing Daily",
+    "description": "Once or twice a day, spend 5 minutes breathing slowly and deeply into the belly rather than the chest. Inhale for 4 counts, hold for 4, exhale for 6.",
+    "why_it_helps": "Deep belly breathing activates the parasympathetic nervous system, which counteracts the chronic stress response. Reducing chronic stress lowers cortisol, which in turn supports more balanced reproductive hormone levels in PCOS.",
+    "category": "stress",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Journal Your Emotions Without Judgment",
+    "description": "Spend 5 to 10 minutes a few times a week writing freely about how you are feeling. There is no right or wrong way to journal. You do not need to show it to anyone.",
+    "why_it_helps": "Journaling reduces emotional overload, helps identify stress triggers, and provides a non-judgmental outlet for the anxiety, frustration, and grief that can accompany living with a chronic hormonal condition like PCOS.",
+    "category": "emotional",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Acknowledge the Emotional Weight of PCOS",
+    "description": "Living with PCOS affects self-image, fertility anxiety, relationship stress, and everyday wellbeing. Allow yourself to recognise that managing this condition is genuinely hard and that it is okay to feel frustrated or sad about it sometimes.",
+    "why_it_helps": "Suppressing difficult emotions around a chronic condition increases psychological stress, which worsens cortisol levels and hormonal imbalance. Acknowledging feelings is the first step toward processing them in a healthy way.",
+    "category": "emotional",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Speak to a Counsellor or Therapist",
+    "description": "If you notice persistent low mood, anxiety, or feelings of shame around your PCOS symptoms, consider speaking to a mental health professional. This is a legitimate form of healthcare, not a last resort.",
+    "why_it_helps": "Women with PCOS have significantly higher rates of anxiety and depression than the general population. Therapy helps manage these mental health impacts directly and builds the emotional resilience needed for long-term lifestyle consistency.",
+    "category": "emotional",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Join a PCOS Support Community",
+    "description": "Find an online community, forum, or local group of people who also live with PCOS. Listening to shared experiences and contributing your own can be genuinely comforting and informative.",
+    "why_it_helps": "Social support reduces the isolation that often accompanies PCOS. Peer communities also serve as valuable sources of practical lifestyle tips, emotional validation, and encouragement for maintaining healthy habits.",
+    "category": "emotional",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Drink at Least 8 to 10 Glasses of Water Daily",
+    "description": "Keep a water bottle visible and within reach throughout the day. Plain water is the goal. Herbal teas and coconut water can supplement but should not replace plain water.",
+    "why_it_helps": "Adequate hydration supports kidney function, reduces water retention, helps flush excess hormones from the body, and keeps metabolism functioning efficiently. Women with PCOS often experience dehydration-related bloating.",
+    "category": "hydration",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Replace Sugary Drinks with Infused Water or Herbal Teas",
+    "description": "When you want something other than plain water, try water infused with cucumber, mint, or lemon. Herbal teas like spearmint, chamomile, or ginger are also excellent alternatives.",
+    "why_it_helps": "Sugary beverages cause rapid blood sugar spikes that worsen insulin resistance. Spearmint tea specifically has been studied for its ability to reduce elevated androgen levels in PCOS, making it a particularly relevant substitute.",
+    "category": "hydration",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Drink Spearmint Tea Regularly",
+    "description": "Brew one or two cups of spearmint tea daily using dried or fresh spearmint leaves steeped in hot water for 5 minutes.",
+    "why_it_helps": "Several small studies suggest that spearmint tea may help reduce free androgen levels in women with PCOS, potentially improving symptoms like excess facial hair and acne over time. It is a gentle and accessible daily habit.",
+    "category": "hydration",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Manage Cravings by Not Skipping Meals",
+    "description": "One of the most effective ways to manage sugar and carbohydrate cravings is to never allow yourself to go too long without eating. Aim to eat every 3 to 4 hours.",
+    "why_it_helps": "Blood sugar dips caused by long gaps between meals trigger intense cravings, particularly for sugar and refined carbohydrates. Regular meals prevent these dips and reduce the urge to reach for high-glycemic comfort foods.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Satisfy Sweet Cravings with Whole Fruit",
+    "description": "When a sweet craving hits, reach for whole fruit like an apple, pear, or berries rather than juice, sweets, or packaged snacks. Pair it with a small handful of nuts for balance.",
+    "why_it_helps": "Whole fruits contain fiber that slows sugar absorption, preventing the spike-and-crash blood sugar pattern. Pairing with healthy fats or protein further moderates the glycemic response while fully satisfying the craving.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Cook with Anti-Inflammatory Spices",
+    "description": "Incorporate turmeric, cinnamon, ginger, and fenugreek seeds regularly into your everyday cooking. These are already common in Indian kitchens and easy to include consistently.",
+    "why_it_helps": "Chronic low-grade inflammation is a key driver of PCOS symptom severity. These spices contain bioactive compounds with natural anti-inflammatory properties that may help reduce the inflammatory burden over time.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Avoid Eating While Distracted",
+    "description": "Try to eat at least one meal a day without a screen in front of you. Sit at a table, eat slowly, and pay attention to your food.",
+    "why_it_helps": "Mindful eating improves digestion, helps you recognize fullness cues more accurately, and reduces the tendency to overeat. Distracted eating often leads to consuming more food than the body needs without the satisfaction of a proper meal.",
+    "category": "routine",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Chew Your Food Slowly and Thoroughly",
+    "description": "Make a conscious effort to chew each bite well before swallowing. Slowing down your eating pace is one of the simplest digestive habits you can build.",
+    "why_it_helps": "Proper chewing begins the digestive process and signals hormone release that communicates fullness to the brain. Eating slowly reduces bloating, improves nutrient absorption, and prevents the blood sugar spikes that come from rapidly consumed meals.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Take a Short Walk After Meals",
+    "description": "A gentle 10 to 15 minute walk after lunch or dinner is one of the simplest post-meal habits you can adopt. It does not need to be brisk or intense.",
+    "why_it_helps": "Walking after eating helps muscles absorb glucose from the bloodstream directly, reducing the post-meal blood sugar spike. This simple habit has been shown to significantly improve insulin sensitivity over time.",
+    "category": "exercise",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Create a Consistent Daily Routine",
+    "description": "Try to wake up, eat, move, and sleep at roughly the same times each day. Your routine does not need to be perfect, just reasonably predictable.",
+    "why_it_helps": "The hormonal system operates on circadian rhythms that respond well to predictability. A consistent daily routine reduces cortisol variability, supports melatonin production, and helps the body regulate insulin and reproductive hormones more effectively.",
+    "category": "routine",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Limit Caffeine, Especially in the Afternoon",
+    "description": "Try to have no more than one or two small cups of tea or coffee per day, ideally before noon or early afternoon. Avoid caffeine after 3 PM.",
+    "why_it_helps": "Caffeine stimulates cortisol and can disrupt sleep quality even when consumed hours before bed. Elevated cortisol and poor sleep are both significant drivers of worsened PCOS symptoms, particularly insulin resistance and mood disturbances.",
+    "category": "routine",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Identify and Reduce Your Personal Stress Triggers",
+    "description": "Spend some time reflecting on or journaling about what situations, people, or habits consistently increase your stress. Once identified, explore small ways to address or reduce exposure to them.",
+    "why_it_helps": "Chronic psychological stress directly disrupts the hormonal axis that governs the menstrual cycle. Reducing identifiable stressors, rather than simply trying to manage stress reactions, creates more sustainable hormonal stability.",
+    "category": "stress",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Practice the 5-4-3-2-1 Grounding Technique When Anxious",
+    "description": "When anxiety feels overwhelming, pause and name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste. This brings your attention back to the present.",
+    "why_it_helps": "Grounding techniques interrupt the anxiety response by redirecting the nervous system to present sensory experience. This reduces cortisol spikes associated with anxious spiraling, which is particularly important for women with PCOS whose hormones are already dysregulated.",
+    "category": "stress",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Set Boundaries Around Work and Screen Time",
+    "description": "Define clear stopping times for work, social media, and news. Give yourself permission to be offline and unavailable during certain parts of the day, particularly in the evening.",
+    "why_it_helps": "Constant connectivity keeps the nervous system in a low-level alert state that elevates cortisol chronically. Reducing this stimulation, especially in the evening, allows the stress hormone cycle to naturally wind down and supports better hormonal balance.",
+    "category": "stress",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Spend Time in Nature Regularly",
+    "description": "Even a 15 to 20 minute walk in a park, garden, or any green space counts. You do not need to travel far or plan anything elaborate.",
+    "why_it_helps": "Research consistently shows that time in natural environments reduces cortisol levels, lowers blood pressure, and improves mood. For women with PCOS, where stress management is directly linked to hormonal balance, regular nature exposure offers measurable physiological benefits.",
+    "category": "stress",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Build a Body-Neutral Relationship with Yourself",
+    "description": "Try to shift focus from how your body looks to what your body does for you and how it feels. This is a gradual practice, not an overnight switch.",
+    "why_it_helps": "PCOS affects appearance through weight changes, acne, hair loss, and excess hair growth. The resulting body dissatisfaction increases cortisol and worsens emotional wellbeing. A body-neutral approach reduces this psychological burden and supports long-term self-care motivation.",
+    "category": "emotional",
+    "difficulty": "hard"
+  },
+  {
+    "title": "Track Symptoms Without Obsessing Over Them",
+    "description": "Keep a simple log of your energy, mood, sleep, and any notable symptoms a few times per week. Use a notebook or simple app. The goal is pattern awareness, not daily self-scrutiny.",
+    "why_it_helps": "Symptom tracking helps you understand your body's patterns over time, identify potential triggers, and have more productive conversations with your doctor. However, daily obsessive monitoring can increase anxiety, so balance is important.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Practice Gratitude for Small Wins",
+    "description": "At the end of each day, note one or two things you did for your health or wellbeing, however small. Drank water. Went for a walk. Slept on time. These count.",
+    "why_it_helps": "PCOS management is a long-term process and results can feel slow or invisible. Recognising small consistent efforts sustains motivation and combats the discouragement that often causes people to abandon healthy habits altogether.",
+    "category": "emotional",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Avoid Comparing Your Progress to Others",
+    "description": "PCOS presents differently in every person. Someone else's treatment, diet, or symptom experience may be entirely different from yours. Focus on your own pattern and progress.",
+    "why_it_helps": "Comparison with others managing PCOS, particularly on social media, can create feelings of failure or inadequacy that increase psychological stress and undermine your commitment to your own sustainable habits.",
+    "category": "emotional",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Engage in a Creative Hobby Regularly",
+    "description": "Spend time doing something creative that you enjoy for its own sake, whether that is drawing, cooking, knitting, gardening, dancing, or anything else. Do it without pressure to be productive.",
+    "why_it_helps": "Creative activities activate the parasympathetic nervous system and lower cortisol. They also provide a psychological sense of accomplishment and pleasure that supports emotional resilience and reduces the burnout that often comes with managing a chronic condition.",
+    "category": "stress",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Communicate Your Needs to Family Members",
+    "description": "If family members are unaware of how PCOS affects you, consider sharing some basic information. Let them know what kind of support is helpful and what comments are hurtful, even when well-intentioned.",
+    "why_it_helps": "In Indian households, food, weight, and reproductive health are often openly discussed in ways that can be unintentionally hurtful to someone with PCOS. Setting gentle boundaries and educating family members reduces chronic interpersonal stress.",
+    "category": "emotional",
+    "difficulty": "hard"
+  },
+  {
+    "title": "Rest Without Guilt",
+    "description": "When your body needs rest, allow yourself to rest. Taking a nap, cancelling plans, or having a quiet day is not laziness. It is a legitimate response to a body that is working harder than it appears.",
+    "why_it_helps": "Women with PCOS often experience fatigue that goes beyond ordinary tiredness due to hormonal and metabolic factors. Forcing through exhaustion raises cortisol and worsens the very symptoms you are trying to manage. Rest is a productive health choice.",
+    "category": "sleep",
+    "difficulty": "moderate"
+  },
+  {
+    "title": "Start with One Habit at a Time",
+    "description": "Do not attempt to overhaul your entire lifestyle at once. Choose one new habit, practice it for two to three weeks until it feels natural, and then add the next one.",
+    "why_it_helps": "Trying to change everything at once is one of the most common reasons people abandon PCOS lifestyle plans. Building habits incrementally creates genuine long-term change rather than an unsustainable burst of effort followed by burnout.",
+    "category": "routine",
+    "difficulty": "easy"
+  },
+  {
+    "title": "Celebrate Consistency Over Perfection",
+    "description": "Missing a day of exercise, eating something outside your plan, or sleeping late once does not undo your progress. What matters is returning to your habits the next day without self-punishment.",
+    "why_it_helps": "The all-or-nothing mindset is one of the biggest barriers to long-term PCOS management. Sustainable progress is built through consistent imperfect effort over time, not through perfect streaks that inevitably break and lead to giving up entirely.",
+    "category": "emotional",
+    "difficulty": "moderate"
+  }
+]
