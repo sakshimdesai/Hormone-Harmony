@@ -124,10 +124,10 @@ to encourage sustainable and realistic self-care practices.
 
 ---
 #Images
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef345ed7-fcd1-4c04-9f5b-9574f9ece4f1" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ee9b004-a510-4ab8-86c7-2c677555ae68" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7d42b71-f8cf-45ae-871a-173788a2c6e8" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/966a605c-dad2-4e1e-9e9e-a0b64735a80e" />
+<img width="1883" height="949" alt="image" src="https://github.com/user-attachments/assets/7759e842-a7b2-417f-ae5f-4b76f76c1b5f" />
+<img width="1874" height="805" alt="image" src="https://github.com/user-attachments/assets/00f85384-a1ac-4ece-95a7-77a88ef751ab" />
+<img width="1728" height="797" alt="image" src="https://github.com/user-attachments/assets/f50d3907-d420-4a38-b0eb-b7002cf524b1" />
+<img width="1759" height="804" alt="image" src="https://github.com/user-attachments/assets/c1623d0b-bd66-4665-b771-60c8dc9c426d" />
 
 ## Technical Highlights
 
