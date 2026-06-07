@@ -123,6 +123,11 @@ Provides practical guidance around:
 to encourage sustainable and realistic self-care practices.
 
 ---
+#Images
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef345ed7-fcd1-4c04-9f5b-9574f9ece4f1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ee9b004-a510-4ab8-86c7-2c677555ae68" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7d42b71-f8cf-45ae-871a-173788a2c6e8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/966a605c-dad2-4e1e-9e9e-a0b64735a80e" />
 
 ## Technical Highlights
 
